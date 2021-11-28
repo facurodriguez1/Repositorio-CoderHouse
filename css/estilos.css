@@ -1,0 +1,152 @@
+/* VISTA MÓVIL */
+
+@media only screen and (max-width:599px) {
+    .bg-naranja{
+        background-color: #FFA040;
+    }
+    .bg-verde{
+        background-image: linear-gradient(to top, #0fd850 20%, #f9f047 100%);
+    }
+    .bg-footer{
+        background-color: #2d3436;
+    }
+    .c-blanco{
+        color: white;
+    }
+    .c-negro{
+        color: black;
+    }
+    h1{
+        font-family: 'Dancing Script', cursive;
+        font-size: 100px;
+    }
+    li{
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+        
+    }
+    h2{
+        font-family: 'Dancing Script', cursive;
+        
+    }
+    h3{
+        font-family: 'Dancing Script', cursive;
+    }
+    a{
+        font-family: 'Dancing Script', cursive;
+        list-style:none;
+    }
+    ul{
+        text-decoration: none;
+    }
+    .redes > li{
+        display: inline-block;
+    }
+    iframe{
+        width: 200px;
+        height:200px;
+    }
+
+}
+
+/* VISTA TABLET */
+
+@media only screen and (min-width:600px) and (max-width:1023px) {
+    .bg-naranja{
+        background-color: #FFA040;
+    }
+    .bg-verde{
+        background-image: linear-gradient(to top, #0fd850 20%, #f9f047 100%);
+    }
+    .bg-footer{
+        background-color: #2d3436;
+    }
+    .c-blanco{
+        color: white;
+    }
+    .c-negro{
+        color: black;
+    }
+    h1{
+        font-family: 'Dancing Script', cursive;
+        font-size: 100px;
+    }
+    li{
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+        
+    }
+    h2{
+        font-family: 'Dancing Script', cursive;
+        
+    }
+    h3{
+        font-family: 'Dancing Script', cursive;
+    }
+    a{
+        font-family: 'Dancing Script', cursive;
+        list-style:none;
+    }
+    ul{
+        text-decoration: none;
+    }
+    .redes > li{
+        display: inline-block;
+    }
+    iframe{
+        width: 200px;
+        height:200px;
+    }
+
+}
+
+
+/* VISTA ESCRITORIO */
+
+@media only screen and (min-width:1024px) {
+.bg-naranja{
+    background-color: #FFA040;
+}
+.bg-verde{
+    background-image: linear-gradient(to top, #0fd850 20%, #f9f047 100%);
+}
+.bg-footer{
+    background-color: #2d3436;
+}
+.c-blanco{
+    color: white;
+}
+.c-negro{
+    color: black;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+}
+li{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    
+}
+h3{
+    font-family: 'Dancing Script', cursive;
+}
+a{
+    font-family: 'Dancing Script', cursive;
+    list-style:none;
+}
+ul{
+    text-decoration: none;
+}
+.redes > li{
+    display: inline-block;
+}
+iframe{
+    width: 300px;
+    height:300px;
+}
+}
