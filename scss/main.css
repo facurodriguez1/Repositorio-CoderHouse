@@ -57,6 +57,22 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.linea {
+  background: black;
+  height: 5px;
+  width: 100%;
+  display: block;
+}
+
+.logoNav {
+  height: 65px;
+  padding: 5px 0;
+}
+
 .videosHome {
   text-align: center;
 }
@@ -74,14 +90,6 @@ a {
   margin-left: 20px;
 }
 
-.titulo__footer {
-  font-size: 30px;
-}
-
-ul {
-  text-decoration: none;
-}
-
 .logo__redes > li {
   display: inline-block;
 }
@@ -95,29 +103,18 @@ ul {
           justify-content: space-evenly;
 }
 
-p {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.imagen__biografia .imagen__proyectos {
-  width: 700px;
-  height: 500px;
-}
-
-.imagen__proyectos {
-  width: 1000px;
-  height: 600px;
-}
-
 .playlist ul li a {
   color: white;
 }
 
-.linea {
-  background: black;
-  height: 5px;
-  width: 100%;
-  display: block;
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
 }
 
 .galeria {
@@ -252,6 +249,11 @@ iframe {
   height: 300px;
 }
 
+.imgGaleria {
+  max-height: 550px;
+  max-width: 900px;
+}
+
 .tienda {
   display: -ms-grid;
   display: grid;
@@ -279,24 +281,6 @@ iframe {
 
 .boton {
   background-color: #FFA040;
-}
-
-.cd {
-  position: relative;
-}
-
-.cd .fecha-cd {
-  display: none;
-  color: white;
-  padding: 0.3rem 0.8rem;
-  font-weight: 700;
-}
-
-.cd:hover .fecha-cd {
-  display: block;
-  position: absolute;
-  bottom: 1.5rem;
-  left: 45%;
 }
 
 .discos {
@@ -339,16 +323,6 @@ iframe {
   height: 550px;
 }
 
-.imgGaleria {
-  max-height: 550px;
-  max-width: 900px;
-}
-
-.galeriaa img:hover {
-  background-color: white;
-  padding: 20px;
-}
-
 @media screen and (max-width: 1023px) {
   .next {
     -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
@@ -375,14 +349,30 @@ iframe {
     max-height: 550px;
     max-width: 600px;
   }
+  .logoNav {
+    height: 80px;
+  }
+  .portada {
+    height: 500px;
+  }
 }
 
 @media screen and (max-width: 500px) {
+  .logoNav {
+    height: 50px;
+    padding: 5px 0;
+  }
   .imgSlider {
     height: 350px;
   }
   .carousel-inner {
     height: 350px;
+  }
+  .logoNav {
+    height: 60px;
+  }
+  .portada {
+    height: 300px;
   }
 }
 /*# sourceMappingURL=main.css.map */

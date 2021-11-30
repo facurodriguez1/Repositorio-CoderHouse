@@ -1,0 +1,23 @@
+.tienda{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+   text-align: center;
+   
+   }
+   .imgTienda{
+    width: 60%;
+    vertical-align: top;
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.5s;
+  }
+  
+  .boton{
+    background-color:#FFA040;
+  
+  }

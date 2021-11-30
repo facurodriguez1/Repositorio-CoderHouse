@@ -1,0 +1,64 @@
+@media screen and (max-width:1023px) {
+    .next{
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+     .close{
+       top:20px;
+       right: 20px;
+     }
+     .light-box:target{
+     text-align: center;
+   width: 95%
+   margin auto;
+   img {
+     width: 90%;
+     
+     }
+   
+     }
+   .imgSlider{
+    height: 500px;
+   }
+   
+   .carousel-inner{
+     height: 500px;
+   }
+   .imgGaleria{
+     max-height: 550px;
+     max-width: 600px;
+   }
+  
+.logoNav{
+   height: 80px;
+  
+   
+}
+.portada{
+    height: 500px;
+}
+
+   }
+   @media screen and (max-width:500px) {
+    .logoNav{
+        height:50px;
+        padding: 5px 0;
+        
+    }
+     .imgSlider{
+       height: 350px;
+      }
+      
+      .carousel-inner{
+        height: 350px;
+      }
+
+   .logoNav{
+       height: 60px;
+    
+       }
+
+   .portada{
+       height: 300px;
+   }
+      
+   }

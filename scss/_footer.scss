@@ -1,0 +1,37 @@
+.logo__redes > li {
+    display: inline-block;
+  
+  }
+  .logo__redes{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .playlist{
+    ul{
+      li{
+       a{
+         color: white;
+       }
+      }
+    }
+   }
+   .footer{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+   width: 95%;
+   margin: auto;
+  
+    
+    overflow: hidden;
+ 
+  }
+
+
+
+
+
+
+
+
+
