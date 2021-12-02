@@ -85,9 +85,17 @@ p {
   width: 100%;
 }
 
+p {
+  font-weight: 600;
+}
+
 .textoHome {
   margin: 20px 20px;
   margin-left: 20px;
+}
+
+.videosHome a:hover {
+  color: #FFA040;
 }
 
 .logo__redes > li {
@@ -211,7 +219,7 @@ a:hover .imgAnimacion2 {
   position: absolute;
   top: 40px;
   right: 40px;
-  background: crimson;
+  background: #FFA040;
   color: white;
   text-decoration: none;
   width: 60px;
@@ -223,7 +231,7 @@ a:hover .imgAnimacion2 {
 
 .next {
   display: block;
-  background: crimson;
+  background: #FFA040;
   color: white;
   width: 30px;
   height: 30px;
