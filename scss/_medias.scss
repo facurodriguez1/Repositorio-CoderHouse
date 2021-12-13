@@ -36,6 +36,9 @@
 .portada{
     height: 500px;
 }
+.textoHome{
+  column-count: 2;
+}
 
    }
    @media screen and (max-width:500px) {
@@ -45,7 +48,7 @@
         
     }
      .imgSlider{
-       height: 350px;
+       object-fit: cover;
       }
       
       .carousel-inner{
@@ -59,6 +62,9 @@
 
    .portada{
        height: 300px;
+   }
+   .textoHome{
+     column-count: 1;
    }
       
    }
